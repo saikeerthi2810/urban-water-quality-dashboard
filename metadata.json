@@ -1,0 +1,7 @@
+{
+  "name": "Remix: PureStream: Urban Water Quality Monitor",
+  "description": "Real-time dashboard for monitoring urban water quality parameters with Firebase integration, interactive maps, and trend analysis.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
