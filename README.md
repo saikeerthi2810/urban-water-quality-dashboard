@@ -1,20 +1,76 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+🌊 Urban Water Quality Monitoring Dashboard
 
-# Run and deploy your AI Studio app
+A modern web-based dashboard for monitoring, visualizing, and analyzing urban water quality parameters in real time. The system helps identify unsafe water conditions, visualize monitoring stations on an interactive map, and provide data-driven insights for urban water management.
 
-This contains everything you need to run your app locally.
+📌 Project Overview
 
-View your app in AI Studio: https://ai.studio/apps/facaeb6b-4b97-4684-9af9-e241c218b5c8
+Urban areas often face water contamination due to industrial discharge, aging pipelines, and poor monitoring infrastructure. This project provides a centralized monitoring dashboard where water quality samples can be stored, visualized, and analyzed.
 
-## Run Locally
+The platform enables users to:
 
-**Prerequisites:**  Node.js
+Monitor water quality parameters
 
+Visualize monitoring stations on an interactive map
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Track parameter trends through graphs
+
+Identify unsafe water conditions
+
+Support data-driven decision making
+
+🚀 Key Features
+🗺 Interactive Map
+
+Displays water monitoring stations
+
+Location markers for sampling points
+
+Helps visualize geographic distribution of water quality data
+
+📊 Data Visualization
+
+Graphs for water parameters
+
+Trend analysis for dif
+
+Parameter comparison
+
+💧 Water Quality Parameters Monitored
+| Parameter        | Safe Range   | Impact                 |
+| ---------------- | ------------ | ---------------------- |
+| pH               | 6.5 – 8.5    | Acidity / corrosion    |
+| TDS              | < 500 mg/L   | Taste & health effects |
+| Turbidity        | < 1 NTU      | Microbial growth risk  |
+| Dissolved Oxygen | > 5 mg/L     | Aquatic life health    |
+| Hardness         | < 200 mg/L   | Scaling in pipes       |
+| Chlorine         | 0.2–0.5 mg/L | Water disinfection     |
+
+🛠 Tech Stack
+
+Frontend:
+
+React
+
+TypeScript
+
+Vite
+
+CSS
+
+Backend / Database:
+
+Firebase Firestore
+
+Visualization
+
+Chart.js (for graphs)
+
+Maps
+
+Leaflet.js
+
+Version Control
+
+Git
+
+GitHub
